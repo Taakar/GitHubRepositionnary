@@ -1,42 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="16dp"
-    tools:context=".MainActivity">
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="234dp"
-        android:layout_height="64dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="15dp"
-        android:layout_toEndOf="@+id/imageView2"
-        android:gravity="center_vertical"
-        android:text="@string/app_name"
-        android:textSize="@dimen/TailleTextelogo" />
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="@dimen/taillelogo"
-        android:layout_height="@dimen/taillelogo"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:adjustViewBounds="false"
-        android:contentDescription="@string/icone_de_l_application"
-        ads:srcCompat="@drawable/logo100" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="212dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="67dp"
-        android:layout_marginTop="187dp"
-        android:text="Button" />
-
-</RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">BetTracking</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BetTracking</string>
+    <string name="nav_header_subtitle">thierry.balderacchi@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
-    <string name="banner_ad_menu">ca-app-pub-1697119609720430/1127067421</string>
-    <string name="button">Button</string>
-    <string name="icone_de_l_application">Icone de l\'application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.tutosandroidfrance.customview.HelloWorldView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:helloColor="#A00"
+        app:worldColor="#0A0"
+        />
+
+    <com.tutosandroidfrance.customview.HelloWorldView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:helloColor="@android:color/darker_gray"
+        app:worldColor="@android:color/holo_blue_dark"
+        />
+
+</LinearLayout>
