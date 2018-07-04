@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 //    private TextView textv;
-  //  private DatabaseManager DBManager;
+private DatabaseManager DBManager;
     private ormDBManager ormDBM;
 
 
