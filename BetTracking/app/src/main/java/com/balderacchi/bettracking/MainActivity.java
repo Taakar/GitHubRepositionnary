@@ -8,14 +8,12 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
 
-//    private TextView textv;
-<<<<<<< HEAD
-  //  private DatabaseManager DBManager;
-    //modification test repro 04/07/18 - 19:27
-=======
-private DatabaseManager DBManager;
+// private TextView textv;
+// private DatabaseManager DBManager;
+// modification test repro 04/07/18 - 19:34
 
-    private ormDBManager ormDBM;
+//     private DatabaseManager DBManager;
+//    private ormDBManager ormDBM;
 
 
 
