@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     //modification test repro 04/07/18 - 19:27
 =======
 private DatabaseManager DBManager;
->>>>>>> 6a422b2361fcc86897a649ef910c0d5878d3db14
+
     private ormDBManager ormDBM;
 
 
