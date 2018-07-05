@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BetTracking</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="action_settings">Paramètre</string>
+    <string name="hello_blank_fragment">Bonjour frame vide</string>
+    <string name="nav_header_desc">Entête de navigation</string>
+    <string name="accueil">Accueil</string>
+    <string name="bookmaker">Bookmaker</string>
+    <string name="communication">Communication</string>
+</resources>

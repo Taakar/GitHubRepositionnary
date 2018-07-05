@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewNomBookmaker"
+            android:layout_width="271dp"
+            android:layout_height="wrap_content"
+
+            android:text="Winamax" />
+
+        <TextView
+            android:id="@+id/textViewSolde"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="1dp"
+            android:text="20,00 €" />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
